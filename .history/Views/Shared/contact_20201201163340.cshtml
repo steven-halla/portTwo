@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Hello!</title>
+</head>
+
+<body>
+    <h1>Hello ASP.NET Mvc!</h1>
+    @{
+        string[] myArray = new string[]{"contact","is","here"," to stay"};
+    
+        foreach(string name in myArray)
+        {   
+            //<p>@myArray</p>
+            <p>@name</p>
+        }
+    }
+
+    <h3><a href="/">Home</a></h3>
+    <h3><a href="/contact">Contacts</a></h3>
+    <h3><a href="/projects">Projects</a></h3>
+    <h1>Project 1: Artwork </h1>
+    <p>Various art work projects</p>
+    <img src="https://cdn.cnn.com/cnnnext/dam/assets/190906133333-isleworth-mona-lisa-crop.jpg" alt="mona lisa">
+    <p>-------------------------------------------------------------------------------------------------------</p>
+    <h2>Project 2: Antraising</h2>
+    <p>raising ants so they dont die</p>
+    <img src="https://www.pestworld.org/media/560892/harvester-ant-pete-elbert.jpg?preset=pestFeature360" alt="ant">
+    <p>--------------------------------------------------------------------------------------------------------</p>
+    <h3>Project3:Programming</h3>
+    <p></p>
+</body>
+
+</html>
